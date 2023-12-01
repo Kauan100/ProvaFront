@@ -4,6 +4,7 @@
 
 <template>
   <div>
+    <Menu></Menu>
     <h1>Tarefas</h1>
     <div v-for="(task, index) in tarefas.data" :key="index">
         <p>{{ task.idTarefaFK.idStatusFK.nome }}</p>

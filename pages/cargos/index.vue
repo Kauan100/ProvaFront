@@ -4,6 +4,7 @@
 
 <template>
     <div>
+      <Menu></Menu>
       <h1>Cargos</h1>
       <div v-for="(profissao, index) in cargos.data" :key="index">
           <p>{{ profissao.nome }}</p>
